@@ -1,0 +1,210 @@
+body{background: #3C3C3C;}
+
+body{font-family:sans-serif;}
+
+.container{width: 1140px;margin:auto}
+
+.clear{clear: both}
+
+ul{list-style: none;}
+
+ul li{display: inline-block}
+
+/*header*/
+
+.header{
+    overflow: hidden;
+    background:#3C3C3C;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom:1px solid #000
+}
+
+.header .navbar1{
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 6px;
+    font-weight:200
+}
+
+.header .navbar1 i,.header .navbar1 a{color:#fff}
+
+.header .navbar1 :hover{color: #27A1EE;transition: 1s}
+
+.header .navbar1 a{text-decoration: none}
+
+.header .lis ul{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.header .lis ul li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #FFF;
+    font-size: 12px
+}
+
+.header .lis ul li:hover{color: #DF7879;cursor: pointer;transition: 1s}
+
+
+
+/*title*/
+
+.title{background: #292929;text-align: center}
+
+.title span{font-size: 50px}
+
+.title h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight:lighter;
+    color: #fff;
+    padding-top: 40px
+}
+
+.title p{
+    padding-top: 0;
+    color: #999;
+    padding-bottom: 40px;
+    font-size: 15px
+}
+
+
+
+/*goto*/
+
+.goto {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background: #DF7879;
+    padding: 0.5px 0
+}
+
+.goto ul li a{text-decoration: none;color: white}
+
+.list{text-align: center}
+
+.list ul li{
+    margin-left: 30px;
+    font-size: 15px;
+    color:#999;
+    font-weight: lighter
+}
+
+.list ul li.active, .list ul li:hover{color: #DF7879;cursor: pointer;transition: 1s}
+
+/*content*/
+
+.content{overflow:hidden;margin-top: 50px}
+
+.content .cont{float:left;width:65%}
+
+.content .cont h2{color: #E3CE90;font-weight: lighter}
+
+.content .cont >img{float:left;box-shadow:10px 10px 0 0px  #141414}
+
+.content .cont button{
+    display: block;
+    float:left;
+    width:46%;
+    margin-left:40px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+.content .cont button.bu1{background:#D54346}
+
+.content .cont button.bu1:hover{background: #7A1B1D;transition: 1s}
+
+.content .cont button.bu2{background:#FF9900 }
+
+.content .cont button.bu2:hover{background: #A66000;transition: 1s}
+
+.content .cont button.bu3{background:#98BA55 }
+
+.content .cont button.bu3:hover{background: #78953E;transition: 1s}
+
+.content .cont i{
+    float:left;
+    margin-left: 30px;
+    font-size: 45px;
+    color:#292929;
+    transition: 1s;  
+}
+
+.content .cont i:hover{color: #00ACEE;transition: 1s}
+
+.content .cont ul{
+    margin-top: 30px;
+    font-size:13px;
+    color: #999;
+    padding: 0;
+}
+
+.content .cont ul li{background:#292929;margin-left: 10px;padding:5px 10px 5px 0}
+
+.content .cont ul li:hover{background:#DF7879;color: #fff;transition: 1s;cursor: pointer}
+
+.content .cont p{padding-top: 20px;color: #999;font-size: 17px}
+
+.content .cont p a{text-decoration: none;color:#DF7879 }
+
+.content .cont hr{background-color:#232323;border: 50px;height: 1px}
+
+.content .cont .hr2{height: 2px}
+
+.content .cont ul.ul2{text-align: center;padding-bottom: 20px}
+
+.content .cont ul.ul2 li{background: none;color:#DF7879;font-size: 15px;cursor: pointer}
+
+.content .cont h3{padding-top: 40px;color: #E3CE90}
+
+.content .cont .im{width: 100%}
+
+.content .cont .im img{margin-right: 15px;border:1px solid #232323;margin-bottom: 70px;padding: 10px}
+
+.content .img{float:right}
+
+.content .img .text-img{
+    position: relative;
+    background:#DF7879;
+    margin-top: -307px;
+    width: 7%;
+    color: white;
+    font-size: 16px
+}
+
+/*footer*/
+
+.footer {overflow: hidden;background: #232323;padding: 30px 0;color: #999 ;font-size: 17px}
+
+.footer .foot{float: left}
+
+.footer .icon{float: right}
+
+.footer .icon a{text-decoration: none;color:#999 }
+
+
+
+
+
+
+
+
+
+
+
+
